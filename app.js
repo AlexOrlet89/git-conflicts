@@ -25,6 +25,13 @@ signUpForm.addEventListener('submit', async (event) => {
 signInForm.addEventListener('submit', async (event) => {
     event.preventDefault();
     const user = await signInUser(signInEmail.value, signInPassword.value);
+
+
+    
+//conflict??
+
+
+
     
     console.log(user);
     if (user) {
@@ -34,5 +41,10 @@ signInForm.addEventListener('submit', async (event) => {
     }
 });
 
-//:( :( :( :( :( 
-    // # is actually called an octothorpe
+
+
+
+
+
+
+// :) :) :)
