@@ -26,12 +26,23 @@ signInForm.addEventListener('submit', async (event) => {
     event.preventDefault();
     const user = await signInUser(signInEmail.value, signInPassword.value);
 
+
+    
+//conflict??
+
+
+
     if (user) {
         redirectIfLoggedIn();
     } else {
         console.error(user);
     }
 });
+
+
+
+
+
 
 
 // :) :) :)
