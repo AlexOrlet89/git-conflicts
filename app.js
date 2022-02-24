@@ -32,6 +32,8 @@ signInForm.addEventListener('submit', async (event) => {
 
 
 
+    
+    console.log(user);
     if (user) {
         redirectIfLoggedIn();
     } else {
